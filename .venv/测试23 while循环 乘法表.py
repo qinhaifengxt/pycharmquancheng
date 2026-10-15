@@ -1,4 +1,3 @@
-
 # /t 制表符，第一行对齐 end='' 不换行输出  print() 等于换行
 """i=1
 while i<=9:
@@ -21,16 +20,11 @@ while i<=9:
         j+=1
     i+=1
     print()
-
 i = 0
 while i<=9:
     j=1
     while j<=i:
         print(f"{j}*{i}={i*j}\t",end='')
         j+=1
-        i +=1
-        print()
-"""
-print("欢迎来到黑马程序员！请出示你的健康码以及72小时核酸证明，并配合测量体温")
-def temper(int(input("请输入体温"))):
-     tiwen =
+    i +=1
+    print()
