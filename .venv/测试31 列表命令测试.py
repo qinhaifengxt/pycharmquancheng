@@ -34,3 +34,6 @@ print(list)
 q=list.index(31)
 print(f"元素31在列表的位置是：{q}")
 
+list = [[1,2,3,4,5,6,7,8,9,10],[1,2,35,6]]
+list.insert(1,'heima')
+print(list)
